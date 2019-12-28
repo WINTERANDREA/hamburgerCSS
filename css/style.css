@@ -1,8 +1,8 @@
 /* Root Scope */
 :root {
-  --primary-color: rgba(13,110, 139, 0.75);
-  --secondary-color: rgba(229,148, 0, 0.9);
-  --overlay-color: rgba(24,39, 51, 0.85);
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --secondary-color: rgba(229, 148, 0, 0.9);
+  --overlay-color: rgba(24, 39, 51, 0.85);
   --menu-speed: 0.75s;
 }
 
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.4;
 }
 
@@ -36,7 +36,7 @@ body {
 #showcase:before {
   /* when used before or after we need to set a content value */
   content: "";
-  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  background: url("../img/hamburger-min.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
